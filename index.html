@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+      
+        <div class="headline">
+        <div class="search">
+            <div class="search-box"><input id="search-box" type="text"></div>
+            <button id="search-button" class="search-button" onclick="getNewsByKeyword()">
+                <div>search</div>
+            </button>
+          </div>
+          <div class="nations" id="nations">
+            <div><button class="us" id="us" onclick="moveToCountry(event)">US</button></div>
+            <div><button class="cn" id="cn" onclick="moveToCountry(event)">CN</button></div>
+            <div><button class="kr" id="kr" onclick="moveToCountry(event)">KR</button></div>
+            <div><button class="jp" id="jp" onclick="moveToCountry(event)">JP</button></div>
+           </div> 
+      </div>
+       
+       <div class="title-box">
+        <div class="title-text" id="title-text">
+            <a href="" onclick="getLatestNews()">Soon's NewsTime</a>
+        </div>
+       </div>
+       <div class="menu-box">
+        <div class="menus" id="menus">
+            <button id="business">Business</button>
+            <button id="entertainment">Entertainment</button>
+            <button id="general">General</button>
+            <button id="health">Health</button>
+            <button id="science">Science</button>
+            <button id="sports">Sports</button>
+            <button id="technology">technology</button>
+        </div>
+       </div>
+       
+       
+       <section class="news-box" id="news-box">
+        
+            
+       
+
+       </section>
+       <div class="page-box">
+        <ul class="pagination">
+            
+          </ul>
+       </div>
+    </section>
+    
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+.title-text a{
+    font-size:50px;
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+}
+.headline{
+    display:flex;
+    justify-content:space-between;
+}
+.nations{
+    display:flex;
+   
+}
+.nations div button{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    background:none;
+    border:none;
+}
+.nations div button:hover{
+    background:black;
+    color:white;
+}
+
+.newstitles{
+    text-decoration:none;
+    color:black;
+
+}
+.search{
+    display:flex;
+    margin-top:10px;
+    justify-content:space-between;
+}
+.search-box input{
+    border-radius:10px;
+    border:1px solid gray;
+}
+.search-button{
+    border:none;
+    font-weight:bold;
+    border-radius:5px;
+    margin-left:5px;
+}
+.search-button:hover{
+    color:white;
+    background:black;
+}
+.title-box{
+    display:flex;
+    justify-content:center;
+}
+.menu-box{
+    display:flex;
+    justify-content:center;
+    margin-top:5px;
+    border-bottom:3px double black;
+}
+.menus button{
+    border:none;
+    background:none;
+    margin:8px;
+}
+.menus button:hover{
+    background:lightgray;
+}
+.news-img-box{
+    display:flex;
+}
+.news img{
+   max-width:100%;
+   max-height:250px;
+   margin-bottom:10px;
+   margin-top:10px;
+}
+.news{
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+    border:2px solid black;
+    border-radius:10px;
+}
+.col-lg-4{
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.col-lg-8{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.page-box{
+    display:flex;
+    justify-content:center;
+}
